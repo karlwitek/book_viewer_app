@@ -62,11 +62,6 @@ get "/search" do
   erb :search
 end
 
-get "/test" do
-  @words = ['blubber', 'beluga', 'galoshes', 'mukluk', 'narwhal']
-  erb :test
-end
-
 not_found do
   redirect "/"
 end
